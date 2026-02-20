@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { Task } from "../../shared/Task"
+import { Task } from "./types/Task.js"
 
 const app = express();
 const PORT = 8080;
